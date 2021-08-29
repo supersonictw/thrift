@@ -22,7 +22,7 @@
     <TargetFramework>net5.0</TargetFramework>
     <AssemblyName>Interfaces</AssemblyName>
     <PackageId>Interfaces</PackageId>
-    <Version>0.15.0.0</Version>
+    <Version>0.16.0.0</Version>
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
@@ -45,5 +45,4 @@
     <Exec Condition="Exists('thrift')" Command="thrift -out $(ProjectDir) -gen netstd:wcf,union,serial -r ./../../tutorial.thrift" />
     <Exec Condition="Exists('./../../../compiler/cpp/thrift')" Command="./../../../compiler/cpp/thrift -out $(ProjectDir) -gen netstd:wcf,union,serial -r ./../../tutorial.thrift" />
   </Target>
-
 </Project>

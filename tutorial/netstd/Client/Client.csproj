@@ -24,7 +24,7 @@
     <AssemblyName>Client</AssemblyName>
     <PackageId>Client</PackageId>
     <OutputType>Exe</OutputType>
-    <Version>0.15.0.0</Version>
+    <Version>0.16.0.0</Version>
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
@@ -39,5 +39,4 @@
     <ProjectReference Include="..\Interfaces\Interfaces.csproj" />
     <ProjectReference Include="..\..\..\lib\netstd\Thrift\Thrift.csproj" />
   </ItemGroup>
-
 </Project>
